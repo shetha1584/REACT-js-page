@@ -1,0 +1,36 @@
+.plans-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .plan {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .basic-plan {
+    background-color: #f2f2f2;
+  }
+  
+  .standard-plan {
+    background-color: #e0e0e0;
+  }
+  
+  
+  .select-plan-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .unlimited-users-plan {
+    background-color: #f2f2f2;
+    padding: 20px ;
+  }
