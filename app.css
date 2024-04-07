@@ -1,0 +1,46 @@
+const App = () => (
+  <div className="plans-container">
+    <div className="plan standard-plan">
+      <p>STANDARD</p>
+      <p>125 words in Paraphraser </p>
+      
+      <p>Standard and Fluency modes </p>
+       
+      
+      <p> Limited use of Synonym Slider</p>
+      
+      <p>1 Freeze Word</p>
+      
+      <p>1,200 words in Summarizer</p>
+    </div>
+    <div className="plan premium-plan">
+      <p>Unlimited words in Paraphraser</p>
+      
+      <p>Unlimited Custom and 8 predefined modes</p>
+      
+      <p>Full use of Synonym Slider</p>
+      
+      <p>Unlimited Freeze Words</p>
+      
+      <p>6,000 words in Summarizer</p>
+      
+      <p>Plagiarism Checker (100 pages/month)</p>
+      
+      <p>Create unique summaries using custom instructions </p>
+      
+      <p>Faster processing speed </p>
+      
+      <p>Premium recommendations</p>
+      
+      <p>Compare Modes</p>
+      
+      <p>Tone insights</p>
+      
+      <p>Paraphraser History</p>
+    </div>
+    <button className="select-plan-button">SELECT PLAN</button>
+    <div className="unlimited-users-plan">
+      <p>Unlimited Users</p>
+    </div>
+  </div>
+);
